@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    background-size: cover;
+    background-image: url(manhattan-beach.png);
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    margin: 0 auto 0 auto;
+}
+
+kbd {
+    display: block;
+    position: relative;
+    font-size: 2rem;
+}
+
+span {
+    vertical-align: baseline;
+}
+
+.sound {
+    font-size: .8rem;
+    text-transform: uppercase;
+    color:black;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+.center-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.piano {
+    height: 340px;
+    width: 700px;
+    position: relative;
+    margin: 20px auto auto auto;
+}
+
+.drum-kit{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    top: 0;
+    height: 60px;
+    width: 900px;
+}
+
+.drum {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    border: 3px solid black;
+    transition: all .1s ease;
+}
+
+.white{
+    text-align: center;
+    height: 300px;
+    width: 100px;
+    border: solid black;
+    border-width: 0px 2px 2px 2px;
+    background-color: whitesmoke;
+    bottom: 0px;
+    transition: all .1s ease;
+}
+
+.C {
+    position: absolute;
+    left: 0px;
+    border-width: 0px 2px 2px 0px;
+}
+
+.D {
+    position: absolute;
+    left: 100px;
+}
+
+.E {
+    position: absolute;
+    left: 200px;
+}
+
+.F {
+    position: absolute;
+    left: 300px;
+}
+
+.G {
+    position: absolute;
+    left: 400px;
+}
+
+.A {
+    position: absolute;
+    left: 500px;
+}
+
+.B {
+    position: absolute;
+    left: 600px;
+    border-width: 0px 0px 2px 2px;
+}
+
+.black {
+    text-align: center;
+    height: 200px;
+    width: 50px;
+    bottom: 97px;
+    background-color: black;
+    border: solid gray;
+    border-width: 0px 5px 5px 5px;
+    transition: all .07s ease;
+}
+
+.Db {
+    position: absolute;
+    left: 70px;
+}
+
+.Eb {
+    position: absolute;
+    left: 170px;
+}
+
+.Gb {
+    position: absolute;
+    left: 370px;
+}
+
+.Ab {
+    position: absolute;
+    left: 470px;
+}
+
+.Bb {
+    position: absolute;
+    left: 570px;
+}
+
+.red {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+#header {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    border-style: dashed;
+    background-color: blue;
+}
+
+#content {
+    position: relative;
+    background-color: aqua;
+}
